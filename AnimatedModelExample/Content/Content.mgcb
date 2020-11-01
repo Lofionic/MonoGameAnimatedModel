@@ -1,0 +1,21 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:../../AnimatedModelPipelineExtension/bin/Debug/netstandard2.0/AnimatedModelPipelineExtension.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin ../model/human.json
+/importer:AnimatedModelImporter
+/processor:AnimatedModelProcessor
+/build:../model/human.json;human.json
+

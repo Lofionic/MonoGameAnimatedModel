@@ -1,0 +1,34 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedModelExample", "AnimatedModelExample.csproj", "{E850E1D8-9A5D-4827-BD20-37DABCE280FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedModelPipelineExtension", "..\AnimatedModelPipelineExtension\AnimatedModelPipelineExtension.csproj", "{3726621F-8386-42D3-84FE-D6602D83B5BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedModelLib", "..\AnimatedModelLib\AnimatedModelLib.csproj", "{770119E1-F108-4270-A84A-2BBE19E8C92B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A8B63E5-C935-4175-8A5D-62DD1FE9C0FF}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E850E1D8-9A5D-4827-BD20-37DABCE280FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E850E1D8-9A5D-4827-BD20-37DABCE280FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E850E1D8-9A5D-4827-BD20-37DABCE280FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E850E1D8-9A5D-4827-BD20-37DABCE280FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3726621F-8386-42D3-84FE-D6602D83B5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3726621F-8386-42D3-84FE-D6602D83B5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3726621F-8386-42D3-84FE-D6602D83B5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3726621F-8386-42D3-84FE-D6602D83B5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770119E1-F108-4270-A84A-2BBE19E8C92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770119E1-F108-4270-A84A-2BBE19E8C92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770119E1-F108-4270-A84A-2BBE19E8C92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770119E1-F108-4270-A84A-2BBE19E8C92B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

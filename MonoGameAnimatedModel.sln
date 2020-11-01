@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedModelExample", "AnimatedModelExample\AnimatedModelExample.csproj", "{A3EEF9FE-157A-4EF3-B617-A782AADE3F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedModelLib", "AnimatedModelLib\AnimatedModelLib.csproj", "{19AF22C3-3184-4F8F-BC13-C6179C31D97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedModelPipelineExtension", "AnimatedModelPipelineExtension\AnimatedModelPipelineExtension.csproj", "{4BB76232-DA3F-4A91-8771-D499B1BBC5D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3EEF9FE-157A-4EF3-B617-A782AADE3F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EEF9FE-157A-4EF3-B617-A782AADE3F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EEF9FE-157A-4EF3-B617-A782AADE3F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EEF9FE-157A-4EF3-B617-A782AADE3F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AF22C3-3184-4F8F-BC13-C6179C31D97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AF22C3-3184-4F8F-BC13-C6179C31D97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AF22C3-3184-4F8F-BC13-C6179C31D97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AF22C3-3184-4F8F-BC13-C6179C31D97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB76232-DA3F-4A91-8771-D499B1BBC5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB76232-DA3F-4A91-8771-D499B1BBC5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB76232-DA3F-4A91-8771-D499B1BBC5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB76232-DA3F-4A91-8771-D499B1BBC5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Effects\" />
+    <Folder Include="Effects\Source\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Effect\AnimatedModelEffect.ogl.mgfxo" />
+    <None Remove="Effects\AnimatedModelEffect.dx11.mgfxo" />
+    <None Remove="Effects\AnimatedModelShader.ogl.mgfxo" />
+    <None Remove="Effects\AnimatedModelShader.dx11.mgfxo" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effects\AnimatedModelShader.ogl.mgfxo" />
+    <EmbeddedResource Include="Effects\AnimatedModelShader.dx11.mgfxo" />
+  </ItemGroup>
+</Project>

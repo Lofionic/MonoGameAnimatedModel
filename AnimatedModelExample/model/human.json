@@ -1,0 +1,16 @@
+{
+    "model": "human.fbx",
+    "totalFrames": "48",
+    "clips": [
+        {
+            "name": "Idle",
+            "startFrame": "1",
+            "endFrame": "32"
+        },
+        {
+            "name": "Run",
+            "startFrame": "33",
+            "endFrame": "48"
+        }
+    ]
+}
